@@ -28,6 +28,7 @@ GH-900-Files/
 │   ├── deploy-pages.yml
 │   └── release.yml
 └── guides/               # Detailed guides
+    ├── getting-started.md
     ├── markdown-guide.md
     ├── contributing.md
     └── git-workflows.md
@@ -105,6 +106,13 @@ Example GitHub Actions workflows for common scenarios:
 
 Comprehensive guides for deeper understanding:
 
+- [**Getting Started**](guides/getting-started.md) - Complete beginner's guide
+  - Installing Git
+  - Creating your first repository
+  - Making your first commit
+  - Pushing to GitHub
+  - Common commands and troubleshooting
+
 - [**Markdown Guide**](guides/markdown-guide.md) - Complete guide to Markdown syntax
   - Basic and extended syntax
   - GitHub-specific features
@@ -128,26 +136,41 @@ Comprehensive guides for deeper understanding:
 
 Recommended order for course materials:
 
-1. **Start with Git Basics**
+### Complete Beginners
+
+1. **Start Here: Getting Started Guide**
+   - Read the [Getting Started Guide](guides/getting-started.md)
+   - Install Git and create a GitHub account
+   - Create your first repository and make your first commit
+
+2. **Learn Git Basics**
    - Review the [Git Basics Cheat Sheet](cheatsheets/git-basics.md)
    - Practice basic commands in a test repository
 
-2. **Learn GitHub Features**
+3. **Learn GitHub Features**
    - Read the [GitHub Essentials Cheat Sheet](cheatsheets/github-essentials.md)
-   - Create your first repository and pull request
+   - Create your first pull request and issue
 
-3. **Understand Workflows**
+### Intermediate Users
+
+1. **Understand Workflows**
    - Study [Git Workflows Guide](guides/git-workflows.md)
    - Choose a workflow that fits your project
 
-4. **Master Documentation**
+2. **Master Documentation**
    - Learn from the [Markdown Guide](guides/markdown-guide.md)
    - Create a great README for your project
 
-5. **Set Up Your Project**
+3. **Set Up Your Project**
    - Use appropriate .gitignore templates
    - Add issue and PR templates
    - Set up GitHub Actions workflows
+
+### Contributing to Open Source
+
+1. Read the [Contributing Guidelines](guides/contributing.md)
+2. Understand the Forking Workflow from [Git Workflows](guides/git-workflows.md)
+3. Use the PR template when contributing
 
 ## 💡 Tips for Success
 
