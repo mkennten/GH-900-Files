@@ -16,6 +16,7 @@ This repository is organized to provide easy access to various resources:
 ```
 GH-900-Files/
 ├── cheatsheets/          # Quick reference guides
+│   ├── exercises.md
 │   ├── git-basics.md
 │   └── github-essentials.md
 ├── templates/            # Reusable templates
